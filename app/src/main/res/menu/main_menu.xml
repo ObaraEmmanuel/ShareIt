@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_file_search"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search_bright"
+        app:actionViewClass="android.widget.SearchView"
+        app:searchIcon="@drawable/ic_search_bright"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/sortAction"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        app:showAsAction="never"
+        android:title="@string/sort_by">
+        <menu>
+            <item
+                android:id="@+id/sortFileName"
+                android:title="@string/name"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/sortPopular"
+                android:title="@string/popular"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/sortFileSize"
+                app:showAsAction="never"
+                android:title="@string/file_size"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/sortPostDate"
+                android:title="@string/by_post_date"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/sortExtension"
+                android:title="@string/extension"
+                android:checkable="true"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/sortOrder"
+        android:title="@string/sort_in">
+        <menu>
+            <item
+                android:id="@+id/sortAscending"
+                android:checkable="true"
+                android:title="@string/ascending" />
+            <item
+                android:id="@+id/sortDescending"
+                android:checkable="true"
+                android:title="@string/descending" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/signOut"
+        android:title="@string/sign_out" />
+</menu>

@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme.-->
+    <style name="ShareAppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar" >
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/ShareActionBar</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ShareActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background" tools:ignore="NewApi">@color/colorPrimaryDark</item>
+        <item name="background">@color/colorPrimaryDark</item>
+        <item name="android:elevation" tools:ignore="NewApi">0dp</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="ShareText1" parent="@style/TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="ShareToolBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+</resources>

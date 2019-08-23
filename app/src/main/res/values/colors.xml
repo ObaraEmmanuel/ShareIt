@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DCDCDE</color>
+    <color name="colorPrimaryDark">#001624</color>
+    <color name="colorAccent">#328C50</color>
+    <color name="colorAccent2">#D2D2D2</color>
+    <color name="doc_color">#41719C</color>
+    <color name="pdf_color">#C00000</color>
+    <color name="sheet_color">#548236</color>
+    <color name="ppt_color">#F73D33</color>
+    <color name="file_color">#767171</color>
+    <color name="image_color">#E2BA5A</color>
+</resources>

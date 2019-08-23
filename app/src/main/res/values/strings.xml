@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Share It</string>
+    <string name="main_login_text">Share It</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Create account instead?</string>
+    <string name="create_account">Create your account</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password_1">Enter Password</string>
+    <string name="password_2">Re-Enter Password</string>
+    <string name="username">User name</string>
+    <string name="finish">Finish</string>
+    <string name="posted_by">Posted by</string>
+    <string name="add">Add</string>
+    <string name="sort_by">Sort by</string>
+    <string name="popular">Popularity</string>
+    <string name="by_post_date">Post date</string>
+    <string name="share">Share</string>
+    <string name="edit">Edit</string>
+    <string name="extension">Extension</string>
+    <string name="name">Name</string>
+    <string name="file_size">File Size</string>
+    <string name="no_files">You havent uploaded any files</string>
+    <string name="code">Code</string>
+    <string name="code_sent">We have sent you a code</string>
+    <string name="continue_process">Continue</string>
+    <string name="sign_out">Sign out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_files">My files</string>
+    <string name="my_network">My network</string>
+    <string name="sort_in">Sort in</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="search">Search</string>
+    <string name="owner">Owner</string>
+    <string name="delete">Delete</string>
+</resources>
